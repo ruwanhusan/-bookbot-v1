@@ -1,28 +1,9 @@
-# Bookbot V1 prototype
-
-Een lokale, werkende prototype-app voor een Nederlandse eenmanszaak.
-
-## Functies
-- Dashboard met omzet, kosten, btw en winst
-- Factuur/bon uploaden
-- Demo-uitlezing van factuurgegevens
-- Boekingsvoorstel
-- 🟢/🟡/🔴 controlestatus
-- Goedkeuren of handmatig aanpassen
-- Transactieoverzicht
-- Eenvoudige btw-overview
-- Fiscale assistent met antwoorden op basis van de prototypegegevens
-
-## Starten
-
-Vereist: Python 3.10+
-
-```bash
-pip install -r requirements.txt
-streamlit run app.py
-```
-
-Open daarna de lokale URL die Streamlit toont.
-
-### Belangrijk
-Dit is een prototype. De documentanalyse gebruikt bewust demo-logica; er is nog geen echte OCR/AI-API, bankkoppeling of aangiftefunctionaliteit aangesloten.
+Bookbot V2 Professional Prototype
+Professionele klikbare Streamlit-demo voor Bookbot.
+Online bijwerken
+Open je bestaande GitHub repository `bookbot-v1`.
+Vervang `app.py` door deze nieuwe `app.py`.
+Vervang eventueel `requirements.txt`.
+Klik op Commit changes.
+Streamlit Community Cloud verwerkt de wijziging automatisch.
+Dit is een UI/demo-prototype. AI, OCR, database, authenticatie, bankkoppeling en echte fiscale verwerking zijn nog niet gekoppeld.
